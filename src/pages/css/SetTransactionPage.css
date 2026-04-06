@@ -1,7 +1,9 @@
 @reference "tailwindcss";
-.page-section {
+/* .page-section {
   @apply animate-fade-in flex flex-col gap-5;
-}
+} */
+ @apply flex flex-col gap-5;
+animation: fadeIn 0.3s ease-in-out;
 
 /* Info Banner */
 .info-banner {
@@ -119,4 +121,8 @@
 
 .empty-state__text {
   @apply text-sm italic font-medium;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
 }
