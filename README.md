@@ -16,8 +16,8 @@
 
 | | |
 |---|---|
-| **Live Demo** | [finance-tracker-reactjs-sandy.vercel.app](https://finance-tracker-reactjs-sandy.vercel.app/) |
-| **Repository** | [github.com/mayurpanchal-12/FinanceTracker_Reactjs](https://github.com/mayurpanchal-12/FinanceTracker_Reactjs) |
+| **Live Demo** | [finance-tracker-reactjs-sandy.vercel.app](https://finance-tracker-assignment-wiu5.vercel.app/) |
+| **Repository** | [github.com/mayurpanchal-12/FinanceTracker_Reactjs](https://github.com/mayurpanchal-12/FinanceTracker_assignment) |
 
 ---
 
