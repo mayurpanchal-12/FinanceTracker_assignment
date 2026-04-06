@@ -1,13 +1,18 @@
 @reference "tailwindcss";
-/* .page-section {
-  @apply animate-fade-in flex flex-col gap-5;
-} */
- @apply flex flex-col gap-5;
-animation: fadeIn 0.3s ease-in-out;
+
+.page-section {
+  @apply flex flex-col gap-5;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 
 /* Info Banner */
 .info-banner {
-  @apply flex items-start gap-3 px-5 py-4 rounded-xl  border border-primary/15 text-sm text-text-main leading-relaxed;
+  @apply flex items-start gap-3 px-5 py-4 rounded-xl border border-primary/15 text-sm text-text-main leading-relaxed;
 }
 
 .info-banner__icon {
@@ -16,7 +21,7 @@ animation: fadeIn 0.3s ease-in-out;
 
 /* Scheduled Table Card */
 .scheduled-card {
-  @apply card p-6;
+  @apply  p-6;
 }
 
 .scheduled-card__header {
@@ -39,11 +44,9 @@ animation: fadeIn 0.3s ease-in-out;
   @apply w-full border-collapse whitespace-nowrap;
 }
 
-
-
 /* Table Row */
 .table-row {
-  @apply transition-colors ;
+  @apply transition-colors;
 }
 
 .table-row--highlighted {
@@ -121,8 +124,4 @@ animation: fadeIn 0.3s ease-in-out;
 
 .empty-state__text {
   @apply text-sm italic font-medium;
-}
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
 }
